@@ -1,0 +1,5 @@
+# Node modules folder (bohot bara hota hai, push nahi karna chahiye)
+node_modules/
+
+# Environment variables (important: password safe rahega)
+.env
