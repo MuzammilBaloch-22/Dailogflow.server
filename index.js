@@ -229,11 +229,10 @@ async function bookEvent(agent) {
               </div>
     
               <!-- Footer -->
-              <div style="background:#111; color:#D4AF37; text-align:center; padding:15px; border-top:2px solid #D4AF37;">
-                <p style="margin:0; font-size:13px; color:#ccc;">
-                  📍 Dubai Marina | 📞 +971-XXX-XXXXXXX | 📧 events@theroyalspoon.ae <br>
-                  © 2025 The Royal Spoon Dubai. All Rights Reserved.
-                </p>
+              <div style="background:#000;color:#D4AF37;text-align:center;padding:20px;">
+                <p style="margin:0;font-size:18px;font-weight:bold;">The Royal Spoon</p>
+                <p style="margin:5px 0;color:#E5E5E5;font-size:14px;">📍 Dubai, UAE | 📞 +971 55 123 4567</p>
+                <p style="margin:10px 0;color:#888;font-size:12px;">© 2025 The Royal Spoon Dubai. All Rights Reserved. | Designed & Developed by <b>Muzammil Baloch 👨‍💻</b></p>
               </div>
     
             </div>
@@ -255,10 +254,10 @@ async function bookEvent(agent) {
 }
 
     // ===== Welcome Intent =====
-    function Welcome(agent) {
-        console.log("Default Welcome Intent triggered");
-        agent.add("Server is connected ✅");
-    }
+    // function Welcome(agent) {
+    //     console.log("Default Welcome Intent triggered");
+    //     agent.add("Server is connected ✅");
+    // }
 
     // ===== Fallback =====
     function fallback(agent) {
