@@ -28,6 +28,12 @@ function formatTime(timeObj) {
     catch { return ""; }
 }
 
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+
 app.post("/webhook", (req, res) => {
     // --- safe session extraction ---
     const sessionPath = req.body?.session || "";
